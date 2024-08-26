@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer utilities {
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+
+.active{
+    @apply font-bold text-black;
+}
+.Brands{
+  font-size: 40px;
+}
+.brandName{
+  font-size: 20px;
+}
+/* body{
+background-color: cadetblue;
+} */
+/* .footer{
+  background-color: rgba(153, 205, 50, 0.413);
+} */
